@@ -1,0 +1,46 @@
+body{background-color: snow;}
+div p {font-size: 18px;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight: bold;color: #ffffff;}
+div.main{
+    text-align: center;
+    width: 240px;
+    height: 135px;
+    min-height: 100%;
+    /*float: left;*/
+    padding: 5px 10px;
+    background-color: powderblue;
+    /*background-color: aquamarine;*/
+    background-attachment:fixed;
+    background-size:cover;
+    opacity:0.8;
+    -webkit-transition: width 2s, height 1s, -webkit-transform 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s, transform 2s;
+        }
+div.main:hover{
+     text-align: center;
+    width: 480px;
+    height: 280px;
+    min-height: 100%;
+    /*float: left;*/
+    padding: 5px 10px;
+    background-color: aquamarine;
+    background-attachment:fixed;
+    background-size:cover;
+    opacity:0.8;
+     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(480deg);
+}
+input[type="button"]
+        {
+            width:5%;
+            background-color:cornflowerblue;
+            color:white;
+            font:14px "Microsoft YaHei UI";
+            margin:10px 0px;
+            padding:10px;
+            border-radius: 5px;
+            border: none;
+        }
+        input[type="button"]:hover
+        {
+            background-color:royalblue;
+        }

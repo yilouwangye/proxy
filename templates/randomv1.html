@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>random</title>
+    <link rel="icon" type="image/jpg" size="100x100" href="../static/timg.jpg"/>
+    <link rel="stylesheet" type="text/css" href="../static/randomv1.css"/>
+    <script type="text/javascript" src="{{url_for('static',filename='refresh.js')}}"></script>
+</head>
+<body>
+<div class="main">
+    <p>{{result}}</p>
+</div>
+<div style="margin-top: 10px;">
+<input type="button" value="refresh" onclick="refresh()">
+</div>
+</body>
+</html>
